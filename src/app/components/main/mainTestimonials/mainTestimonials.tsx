@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 
 import Down from './icons/down-arrow.svg';
@@ -14,7 +13,7 @@ const MainTestimonials: React.FC = () => {
                     WHAT THEY SAY
                 </h1>
                 <p className="main-testimonials-description">
-                    OUR CLIENTS ARE AT THE HEART OF EVERYTHING WE DO. HEAR FROM THE VISIONARIES, INNOVATORS, AND LEADERS WHO’VE PARTNERED WITH SCHRIFT TO BRING BOLD IDEAS TO LIFE THROUGH PRECISE, IMPACTFUL DESIGN.
+                    OUR CLIENTS ARE AT THE HEART OF EVERYTHING WE DO. HEAR FROM THE VISIONARIES, INNOVATORS, AND LEADERS WHO&aposVE PARTNERED WITH SCHRIFT TO BRING BOLD IDEAS TO LIFE THROUGH PRECISE, IMPACTFUL DESIGN.
                 </p>
             </article>
             <article className="main-testimonials-list-items">
@@ -42,7 +41,7 @@ const MainTestimonials: React.FC = () => {
                         <h2 className="main-testimonials-list-item-pre-title">Co-founder of VentureStudio</h2>
                     </div>
                     <p className="main-testimonials-list-item-description">
-                        Schrift's designs are both innovative and purposeful. They helped us create a website that truly stands out and resonates with our audience.
+                        Schrift&aposs designs are both innovative and purposeful. They helped us create a website that truly stands out and resonates with our audience.
                     </p>
                 </div>
                 <div className="main-testimonials-list-item">

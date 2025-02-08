@@ -1,17 +1,9 @@
 import React from "react";
-import Link from "next/link";
 
 import Image from "next/image";
 import Code from './images/code.svg';
-import About from './images/AboutImage.png';
-import CodeItem from './images/code-item.svg';
-
 
 import Arrow from './icons/arrow-bottom.svg';
-import Block from './icons/block.svg';
-import Light from './icons/lightning.svg';
-import Circle from './icons/circle.svg';
-import Star from './icons/star.svg';
 
 import './main.scss';
 import MainAbout from "./mainAbout/mainAbout";

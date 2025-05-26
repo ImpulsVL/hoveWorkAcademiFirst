@@ -13,7 +13,7 @@ import './mainAbout.scss';
 
 const MainAbout: React.FC = () => {
     return (
-        <section className="main-about">
+        <section className="main-about" id='about'>
             <section className="about-schrift">
                 <h1 className="about-schrift-title">ABOUT SCHRIFT</h1>
                 <div className="about-schrift-block-image">

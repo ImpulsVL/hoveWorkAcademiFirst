@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,6 +11,12 @@ import ArrowUP from './icons/up-arrow.svg';
 import './footer.scss';
 
 const Footer: React.FC = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
     return (
         <footer className="footer">
             <nav className="footer-nav">
@@ -46,6 +54,7 @@ const Footer: React.FC = () => {
                     className="arrow-up"
                     src={ArrowUP}
                     alt="ellipse"
+                    onClick={scrollToTop}
                 />
             </article>
             <Image

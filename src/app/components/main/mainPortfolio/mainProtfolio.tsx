@@ -23,7 +23,7 @@ const MainPortfolio: React.FC = () => {
     };
 
     return (
-        <section className="main-portfolio">
+        <section className="main-portfolio" id='portfolio'>
             <article className="main-portfolio-text">
                 <h1 className="main-portfolio-title">FEATURED PORTFOLIO</h1>
                 <p className="main-portfolio-description">EXPLORE HOW SCHRIFT TRANSFORMS BOLD IDEAS INTO IMPACTFUL DESIGNS. FROM BRANDING TO DIGITAL EXPERIENCES, OUR WORK REFLECTS PRECISION, CLARITY, AND PURPOSE.</p>

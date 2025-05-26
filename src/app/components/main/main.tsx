@@ -46,7 +46,7 @@ const Main: React.FC = () => {
                     </button>
                 </section>
             </section>
-            <MainAbout />
+            <MainAbout/>
             <MainServices />
             <MainPortfolio />
             <MainTestimonials />

@@ -67,6 +67,11 @@
     font-size: 16px;
     line-height: 19.52px;
     font-weight: 500;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.8;
+    }
 }
 
 .header-title-icon-second{

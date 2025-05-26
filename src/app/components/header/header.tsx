@@ -1,11 +1,10 @@
-import React from "react";
-import Link from "next/link";
+'use client';
 
+import React from "react";
+import { Link as ScrollLink } from 'react-scroll';
 import Image from "next/image";
 import BigArrowRight from './icons/big-arrow-right.svg';
 import LittleArrowRight from './icons/down-arrow.svg';
-
-
 import './header.scss';
 
 const Header: React.FC = () => {
@@ -22,18 +21,38 @@ const Header: React.FC = () => {
             <nav className="header-nav">
                 <ul className="header-list">
                     <h2 className="header-item">
-                        <Link href="/" className="header-link">ABOUT</Link>
+                        <ScrollLink
+                            to="about"
+                            smooth={true}
+                            duration={500}
+                            className="header-link"
+                        >
+                            ABOUT
+                        </ScrollLink>
                     </h2>
                     <h2 className="header-item">
-                        <Link href="/" className="header-link">SERVICES</Link>
+                        <ScrollLink
+                            to="services"
+                            smooth={true}
+                            duration={500}
+                            className="header-link"
+                        >
+                            SERVICES
+                        </ScrollLink>
                     </h2>
                     <h2 className="header-item">
-                        <Link href="/" className="header-link">PORTFOLIO</Link>
+                        <ScrollLink
+                            to="portfolio"
+                            smooth={true}
+                            duration={500}
+                            className="header-link"
+                        >
+                            PORTFOLIO
+                        </ScrollLink>
                     </h2>
                 </ul>
                 <ul className="header-second-title">
-                    <h2 className="header-second-title-text">LET’S TALK
-                    </h2>
+                    <h2 className="header-second-title-text">LET'S TALK</h2>
                     <Image
                         className="header-title-icon-second"
                         src={LittleArrowRight}

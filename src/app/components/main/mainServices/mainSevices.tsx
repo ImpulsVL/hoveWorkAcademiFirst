@@ -4,7 +4,7 @@ import './mainServices.scss';
 
 const MainServices: React.FC = () => {
     return (
-        <section className="main-services">
+        <section className="main-services" id="services">
             <article className="main-services-title">
                 <h1 className="main-services-text">
                     WHAT WE PROVIDE

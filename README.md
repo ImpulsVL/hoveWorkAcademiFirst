@@ -18,4 +18,4 @@
 
 1. Клонируйте репозиторий:
 
-   git clone https://github.com/ваш_пользователь/ваш_репозиторий.git
+   git clone https://github.com/ImpulsVL/hoveWorkAcademiFirst.git

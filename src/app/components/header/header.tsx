@@ -52,7 +52,7 @@ const Header: React.FC = () => {
                     </h2>
                 </ul>
                 <ul className="header-second-title">
-                    <h2 className="header-second-title-text">LET'S TALK
+                    <h2 className="header-second-title-text">LET’S TALK
                     </h2>
                     <Image
                         className="header-title-icon-second"
